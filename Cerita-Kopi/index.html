@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerita Kopi</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <i data-feather="circle"></i>
+
+    <script>
+      feather.replace();
+    </script>
+    
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Alphine JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- App -->
+      <script src="src/app.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Sejuta<span>Cerita</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- search form start -->
+       <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+
+       </div>
+       <!-- search form end -->
+
+       <!-- Shopping cart start -->
+        <div class="shopping-cart">
+          <div class="cart-item">
+            <img src="img/products/1.jpg" alt="product 1">
+            <div class="item-detail">
+              <h3>Product 1</h3>
+              <div class="item-price">IDR 18K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="img/products/1.jpg" alt="product 1">
+            <div class="item-detail">
+              <h3>Product 1</h3>
+              <div class="item-price">IDR 18K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="img/products/1.jpg" alt="product 1">
+            <div class="item-detail">
+              <h3>Product 1</h3>
+              <div class="item-price">IDR 18K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+        </div>
+       <!-- Shopping cart end -->
+
+
+       
+    </nav>
+    <!-- Navbar end -->
+
+
+
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Setiap Rasa Ada<span> Cerita </span></h1>
+        <p>Tempat di mana Cerita dan Rasa Bertemu.</p>
+      </main>
+    </section>
+
+    <!-- Hero Section End-->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Harus Memilih Kami ?</h3>
+          <p>
+            Berikut beberapa alasan yang dapat disampaikan kepada pelanggan mengenai mengapa mereka harus memilih Cafe Sejuta Cerita:
+             <p>1. Rasa yang Penuh
+              Cerita, Setiap cangkir dan hidangan kami diracik untuk menciptakan
+              pengalaman yang bermakna dan tak terlupakan.</p> 
+              <p>2. Bahan Berkualitas
+                Terbaik, Kami hanya menggunakan bahan pilihan agar setiap sajian
+                memiliki rasa yang selalu konsisten dan istimewa.</p>
+                <p>3. Suasana
+                  Nyaman dan Hangat, Temukan tempat ideal untuk berbagi cerita, baik
+                  bersama teman atau sekadar bersantai sendiri.</p>  
+          </p>
+          <p>
+            ini bisa menjelaskan mengapa Cafe Sejuta Cerita adalah pilihan yang tepat bagi siapa pun yang mencari rasa dan suasana penuh cerita!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Menu Section Start-->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span>Kami</h2>
+      <p>
+        Macam-macam menu yang ada di Sejuta Cerita Ada Menu Khas, Coffe, Non-Coffe, Makanan Ringan, Makanan Berat, Dessert.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="img/menu/1.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Kenangan Latte</h3>
+          <p class="menu-card-price">IDR 28K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/2.png"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Kisah Matcha</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/3.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Sejuknya Cerita</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/8.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Sejuta Espresso</h3>
+          <p class="menu-card-price">IDR 23K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/9.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Aromanya Rindu</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/4.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Nostalgia Nasi Goreng</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/5.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Memori Croissant</h3>
+          <p class="menu-card-price">IDR 13K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/7.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Cerita Waffle</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/6.png"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Kisah Manis Gelatoe</h3>
+          <p class="menu-card-price">IDR 13K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/10.jpg"
+            alt="Strawberry Juice"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Rasa yang Terukir</h3>
+          <p class="menu-card-price">IDR 9K</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section End-->
+
+    <!-- Produk section start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
+  
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/1.jpg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3>Kenangan Latte</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 28K <span>IDR 35K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/2.png" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3>Kisah Matcha</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 20K <span>IDR 28K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/3.jpg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3>Sejuknya Cerita</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 10K <span>IDR 15K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Produk section end -->
+
+    <!-- Contact Section Start-->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span>Kami</h2>
+      <p>Datang dan temui kami di Cafe Sejuta Cerita, tempat di mana setiap rasa bertemu dengan cerita yang tak terlupakan!</p>
+      <p>
+        Kami senang bisa mendengar cerita Anda! Untuk pertanyaan, reservasi, atau informasi lebih lanjut, hubungi kami melalui:
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.0881502343561!2d107.00639247597351!3d-6.240480733773477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e82c8f7f42f%3A0xd7bcca56bd34b4d!2sJl.%20Berlian%20Raya%2C%20Bekasi%20Jaya%2C%20Kec.%20Bekasi%20Tim.%2C%20Kota%20Bks%2C%20Jawa%20Barat%2017112!5e0!3m2!1sid!2sid!4v1731158267828!5m2!1sid!2sid"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No HandPhone" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End-->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home"> Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>
+          Created by <a href="">Muhammad Raihan Mardiansyah</a>. | &copy; 2024.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
+
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
